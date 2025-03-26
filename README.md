@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Projet React TypeScript - Greeting & Counter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Ce projet est une application simple développée avec **React** et **TypeScript**. Il comprend deux composants principaux :
+- `Greeting` : Affiche un message de bienvenue personnalisé.
+- `Counter` : Un compteur interactif permettant d'incrémenter une valeur.
 
-## Available Scripts
+---
+## Installation et Configuration
 
-In the project directory, you can run:
+###  Installation
+1. **Cloner le projet**
+   ```bash
+   git clone https://github.com/1306BENIE/Checkpoint_Building_React_Apps_with_TypeScript.git
+   cd Checkpoint_Building_React_Apps_with_TypeScript
+   ```
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
+3. **Lancer l'application**
+   ```bash
+   npm run start
+   ```
 
-### `npm start`
+---
+##  Structure du Projet
+```
+Checkpoint_Building_React_Apps_with_TypeScript
+/
+│── src/
+│   ├── components/
+│   │   ├── Greeting.tsx
+│   │   ├── Counter.tsx
+│   ├── styles
+│   │   ├──App.css
+│   ├── App.tsx
+│── package.json
+│── tsconfig.json
+│── README.md
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## Fonctionnalités
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+✅ Affichage dynamique d'un message personnalisé
 
-### `npm test`
+✅ Gestion de l'état avec **setState** dans un composant `class`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Typage strict avec TypeScript pour éviter les erreurs
 
-### `npm run build`
+✅ Architecture modulaire avec des composants réutilisables
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Code propre, structuré et bien commenté
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+##  Technologies utilisées
+- **React** (avec `create-react-app`)
+- **TypeScript** pour un code plus robuste
+- **CSS** pour le style et l'ergonomie
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+##  Améliorations possibles
+- Ajouter une fonctionnalité de **décrémentation** du compteur
+- Intégrer un **Dark Mode**
+- Ajouter des tests unitaires avec **Jest** et **React Testing Library**
 
-### `npm run eject`
+---
+##  Auteur
+ **BENIE SYLVESTRE**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
